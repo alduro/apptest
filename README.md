@@ -5,31 +5,31 @@ application up and running.
 
 Things you may want to cover:
 
-- Ruby version
+Ruby version
 
-### It uses ruby 2.5.1 version
+- It uses ruby 2.5.1 version
 
-- System dependencies
+System dependencies
 
-  Run bundle install
+- Run bundle install
 
-- Configuration
+Configuration
 
-  setup Postgresql username and password in .env file
+- setup Postgresql username and password in .env file
 
-- Database creation
+Database creation
 
-  Just run rake db:drop db:create db:migrate
+- Just run rake db:drop db:create db:migrate
 
-- Database initialization
+Database initialization
 
-- How to run the test suite
+How to run the test suite
 
-- Services (job queues, cache servers, search engines, etc.)
+Services (job queues, cache servers, search engines, etc.)
 
-- Deployment instructions
+Deployment instructions
 
-- Test app
+Test app
 
 ### From Postman:
 
