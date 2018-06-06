@@ -7,19 +7,19 @@ Things you may want to cover:
 
 - Ruby version
 
-# It uses ruby 2.5.1 version
+### It uses ruby 2.5.1 version
 
 - System dependencies
 
-# Run bundle install
+  Run bundle install
 
 - Configuration
 
-# setup Postgresql username and password in .env file
+  setup Postgresql username and password in .env file
 
 - Database creation
 
-# Just run rake db:drop db:create db:migrate
+  Just run rake db:drop db:create db:migrate
 
 - Database initialization
 
@@ -31,7 +31,7 @@ Things you may want to cover:
 
 - Test app
 
-# From Postman:
+### From Postman:
 
 To create content:
 
