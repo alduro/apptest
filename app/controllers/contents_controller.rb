@@ -20,7 +20,9 @@ class ContentsController < JSONAPI::ResourceController
   end
 
   def create
-    url = params[:url]
+    url = params[:url]    
+    return render json: {}, status: :unprocessable_entity unless url.present?
+
     doc = Nokogiri::HTML(open(url))
     content = Content.create(url: url)
     TAGS.each do |tag|
